@@ -1,0 +1,53 @@
+@use "variables" as *;
+
+
+.card_text_button{
+    border: $buttonborder;
+    font-family: $primaryFont;
+    font-size: $contentFontSize;
+    line-height: $buttonLineHeight;
+    padding: $buttonPadding;
+}
+
+#booknow{
+    background-color: black;
+    color:white;
+}
+
+#moreinfo{
+    background-color: white;
+    color:black;
+}
+.card_text_extrabutton{
+    width: fit-content;
+    padding:10px;
+    position: absolute;
+    left: 250px;
+}
+.card_text_extrabutton-1{
+    padding: 10px;
+    border-radius: 40px;
+    width: 80px;
+    height:40px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: $primaryFont;
+
+}
+
+#sales{
+    background: #00FFB2;
+    border-radius: 34.098px;
+}
+
+#adventure,
+#hiking{
+    color: rgb(70, 69, 69);
+    background-color: rgb(196, 194, 194);
+    border-color: rgb(196, 194, 194);
+}
+
+
+
+
+

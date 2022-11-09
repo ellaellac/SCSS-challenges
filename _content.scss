@@ -1,0 +1,33 @@
+@use "variables" as *;
+
+body {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin:10px;
+    border: 2px solid black;
+}
+
+.card_text{
+    margin: 20px;
+}
+
+.card_text_header{
+    color: $headerColour;
+    font-family: $primaryFont;
+    font-size: $headerFontSize;
+    line-height: $headerLineHeight;
+    font-weight: $headerFontWeight;
+    height: $headerHeight;
+}
+
+.card_text_content{
+    color: $contentColour;
+    font-family: $primaryFont;
+    font-size: $contentFontSize;
+    line-height:$contentLineHeight; 
+    height: $contentHeight;
+}

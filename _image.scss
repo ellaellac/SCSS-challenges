@@ -1,0 +1,15 @@
+@use "variables" as *;
+
+.card{
+    margin:10px;
+    background-color: $backgroundColour;
+    width:505px;
+    height:661px;
+    
+}
+
+.card__img{
+    width:100%;
+    
+}
+
